@@ -72,6 +72,13 @@
 #header .head-h2,.head-h4{
   color: #3498db;
 }
+#header .head-p{
+  font-size:20px;
+  color: #3498db;
+}
+#header .head-h2{
+font-size:30px;
+}
 #header .header-brand{
  color:white;
  font-size:70px;
