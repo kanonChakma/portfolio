@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+}
+.particle-canvas{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: "100%";
+      height: "100%";
+}
+.bg-color{
+  background-color:#192a56;
+}
+/* h1 */
+.all-h1{
+ font-weight: 800;
+ font-size: 60px;
+ color:#3498db;
+}
+/* about */
+.skill-h3{
+  font-weight: 600;
+  margin-top: 10px;
+}
+.skill p{
+  margin-left: 10px;
+}
+.skill p:hover{
+  background: #3498db;
+ color:white;
+}
+.about-text{
+  font-size:20px;
+  color: #3498db;
+}
+.about-img{
+ height:200px;
+ width:200px;
+}
+/* Card */
+ .card-btn,.skill p{
+  text-decoration: none;
+  padding:5px 10px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 1px solid #3498db;
+  display: inline-block;
+}
+.card-btn:hover{
+ background: #3498db;
+ color:white;
+}
+.card{
+  margin-bottom: 5px;
+  color: #3498db;
+  background-color: #192a56 !important;
+}
+.card-img-top{
+  height: 220px !important;
+  object-fit: cover;
+}
+/*HEADER COMPONENT START HERE*/
+#header{
+ width:100vw;
+ padding-top: 50px;
+ height: 100vh;
+}
+#header .head-h2,.head-h4{
+  color: #3498db;
+}
+#header .header-brand{
+ color:white;
+ font-size:70px;
+ font-weight:bold;
+}
+#header h1{
+  font-weight: 700;
+  color: black;
+}
+#header h2{
+ color: #484848;
+ font-size:24px;
+}
+#header .get-started {
+  text-decoration: none;
+  padding:10px 30px;
+  font-size:16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  border-radius: 50px;
+  color: #3498db;
+  border: 2px solid #3498db;
+  display: inline-block;
+}
+#header .get-started:hover{
+ background: #3498db;
+ color:white;
+}
+.header-img{
+  text-align:right;
+}
+#header .animated{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@webkit-keyframes up-down{
+  0%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(-10px);
+  } 
+}
+@keyframes App-logo-spin{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-item a{
+  text-decoration:none;
+}
