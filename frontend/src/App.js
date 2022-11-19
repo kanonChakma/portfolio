@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import Header from './container/Header/Header'
+import {Header, Skills,Testimonial} from './container'
+import "./App.scss"
 
 const App = () => {
   return (
-    <div>
+    <div  className="app">
        <Navbar/>
        <Header/>
+       <Skills/>
+       <Testimonial/>
     </div>
   )
 }
