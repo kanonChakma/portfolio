@@ -110,6 +110,7 @@ const Services = () => {
             </div>
           </div>
          </div>
+         
          <div className='services__content'>
            <div>
               <i className='uil uil-edit services__icon'></i>
