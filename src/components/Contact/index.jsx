@@ -11,6 +11,7 @@ const Contact = () => {
       emailjs.sendForm('service_yky8u0t', 'template_wea9rju', form.current, 'BMZsd0IPrV2KKUDA0')
      e.target.reset()
     };
+    
   return (
     <section className='contact section' id='contact'>
       <h2 className='section__title'>Get in touch</h2>
