@@ -5,8 +5,10 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Qualification from './components/Qualification';
+import ScrollUP from './components/ScrollUp/ScrollUp';
 import Services from './components/Services';
 import Skills from './components/Skills';
+import Work from './components/Work';
 
 function App() {
   return (
@@ -17,10 +19,12 @@ function App() {
         <About/>
         <Skills/>
         <Services/>
+        <Work/>
         <Qualification/>
         <Contact/>
-        <Footer/>
       </main>
+      <Footer/>
+      <ScrollUP/>
     </div>
   );
 }
