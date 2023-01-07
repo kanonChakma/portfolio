@@ -3,8 +3,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--z-index);
+  z-index: 99999;
   background-color: var(--body-color);
+}
+
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 .nav {
