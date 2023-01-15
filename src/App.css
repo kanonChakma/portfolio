@@ -185,16 +185,15 @@ img {
     width: 22px;
     height: 22px;
   }
+  .section {
+    padding: 0;
+  }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
   body {
     margin: 0 0 var(--header-height) 0;
-  }
-
-  .section {
-    padding: 2rem 0 4rem;
   }
 
   .section__subtitle {

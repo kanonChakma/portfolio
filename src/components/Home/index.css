@@ -2,11 +2,20 @@
   row-gap: 7rem;
 }
 
+.inside {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 70vh;
+}
+
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
-  padding-top: 5.5rem;
+  padding-top: 6rem;
   column-gap: 2rem;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .home__img {
@@ -175,9 +184,18 @@
   .home__scroll {
     display: none;
   }
+  .home {
+    height: auto;
+  }
+  .inside {
+    padding: 20px 0px;
+  }
 }
 
 @media screen and (max-width: 350px) {
+  .home {
+    height: auto;
+  }
   .home__img {
     height: 180px;
     width: 180px;

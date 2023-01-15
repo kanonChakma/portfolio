@@ -2,8 +2,7 @@ import React from 'react'
 
 const Data = () => {
   return (
-    <div className='home__data'>
-      
+    <div className='home__data'> 
       <h1 className='home__title'>
            Kanon Chakma
            <svg
@@ -56,16 +55,13 @@ const Data = () => {
                   ></path>
             </svg>
        </h1>
-
        <h3 className='home__subtitle'>
           Visual Designer
        </h3>
-       
        <p className='home__description'>
          I'm creative designer based in New York, adn I;m very passionate and dedicated
          to my work
        </p>
-
         <a href='#contact' className='button button--flex'>
           Say Hello
           <svg
