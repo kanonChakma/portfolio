@@ -7,14 +7,16 @@ import "./index.css"
 const Home = () => {
   return (
     <section className='home section' id='home'>
-      <div className='home__container container grid'>
-        <div className='home__content grid'>
+       <div className='inside'>
+         <div className='home__container container grid'>
+         <div className='home__content grid'>
           <Social/>
-           <div className='home__img'></div>
+          <div className='home__img'></div>
           <Data/>
-        </div>
-        <ScrollDown/>
-      </div> 
+         </div>
+         <ScrollDown/>
+         </div> 
+      </div>
     </section>
   )
 }

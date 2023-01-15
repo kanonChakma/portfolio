@@ -3,7 +3,13 @@
   column-gap: 3rem;
   justify-content: center;
 }
-
+.skill_inside {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 50vh;
+  padding-top: 15px;
+}
 .skills__content {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -63,6 +69,9 @@
   }
   .skills__content {
     padding: 1.5rem;
+  }
+  .skill_inside {
+    padding: 20px 0px;
   }
 }
 
