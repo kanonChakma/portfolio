@@ -14,7 +14,6 @@ const Home = () => {
           <div className='home__img'></div>
           <Data/>
          </div>
-         <ScrollDown/>
          </div> 
       </div>
     </section>

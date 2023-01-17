@@ -9,32 +9,34 @@ import Work5 from "../../assets/work5.jpg";
     {
       id: 1,
       image: Work1,
-      title: "Web design",
+      title: "Top Choice",
       category: "web",
+      desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
+      tech: ["React", "Redux", "Firebase", "Express", "Mongoose", "MongoDB", "Stripe"]
     },
     {
       id: 2,
       image: Work2,
-      title: "App movil",
+      title: "Share Talk",
       category: "app",
+      desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
+      tech : ["React", "Express", "MongoDB", "Socket.io"]
     },
     {
       id: 3,
       image: Work3,
-      title: "Brand design",
+      title: "Task Assign",
       category: "design",
+      desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
+      tech : ["React", "Express", "MongoDB", "Socket.io"]
     },
     {
       id: 4,
       image: Work4,
-      title: "App movil",
+      title: "Blog",
       category: "app",
-    },
-    {
-      id: 5,
-      image: Work5,
-      title: "Web design",
-      category: "web",
+      desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
+      tech : ["React", "Express", "MongoDB", "Socket.io"]
     },
   ];
   

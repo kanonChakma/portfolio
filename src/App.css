@@ -151,8 +151,8 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
 

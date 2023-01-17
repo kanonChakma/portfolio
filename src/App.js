@@ -7,15 +7,14 @@ import Qualification from './components/Qualification';
 import ScrollUP from './components/ScrollUp/ScrollUp';
 import Skills from './components/Skills';
 import Work from './components/Work';
-
+import TeckStack from './components/TechStack'
 function App() {
   return (
     <div>
       <Header/>
       <main className='main'>
         <Home/>
-        <About/>
-        <Skills/>
+        <TeckStack/> 
         <Work/>
         <Qualification/>
         <Contact/>
