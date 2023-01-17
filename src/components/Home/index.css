@@ -1,7 +1,10 @@
 .home__container {
   row-gap: 7rem;
 }
-
+.home__button{
+  display: flex;
+  justify-content: space-around;
+}
 .inside {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   max-width: 1200px;
@@ -60,7 +63,7 @@
 
 /* Data component */
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: 2.5rem;
   margin-bottom: var(--mb-0-25);
 }
 

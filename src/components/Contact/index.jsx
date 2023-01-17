@@ -16,7 +16,7 @@ const Contact = () => {
     <section className='contact section' id='contact'>
       <div className='contact_inside '>
       <h2 className='section__title'>Get in touch</h2>
-      <span className='section__subtitle'>Contact Me</span>
+      <span className='section__subtitle'></span>
       <div className='contact__container container grid'>
 
        <div className='contact__content'>
@@ -28,35 +28,24 @@ const Contact = () => {
             <span className='contact__card-data'>
               kanon121chakma@gmail.com
             </span>
-            <a href='/' className='contact__button'> write me
+            <a href='https://mail.google.com' target='_blank' className='contact__button'> write me
             <i className='bx bx-right-arrow-alt contact__button-icon '></i>
             </a>
           </div>
           <div className='contact__card'>
-            <i className='bx bxl-whatsapp contact__card-icon'></i>
+            <i href='https://www.whatsapp.com' target='_blank' className='bx bxl-whatsapp contact__card-icon'></i>
             <h3 className='contact__card-title'>Whatsapp</h3>
             <span className='contact__card-data'>
-              999-888-777
+              +8801552924226
             </span>
-            <a href='/' className='contact__button'> write me{" "}
+            <a href='whatsapp.com' className='contact__button'> text me{" "}
               <i className='bx bx-right-arrow-alt contact__button-icon '></i>
-            </a>
-          </div>
-          <div className='contact__card'>
-            <i className='bx bxl-messenger contact__card-icon'></i>
-            <h3 className='contact__card-title'>Messagenger</h3>
-            <span className='contact__card-data'>
-                999-888-777
-            </span>
-            <a href='/' className='contact__button'> write me{" "}
-                <i className='bx bx-right-arrow-alt contact__button-icon '></i>
             </a>
           </div>
          </div>   
        </div>
 
        <div className='contact__content'>
-         <h3 className='contact__title'>Write me your project</h3>
          <form ref={form} onSubmit={sendEmail} className='contact__form'>
          <div className='contact__form-div'>
            <label className='contact__form-tag'>Name</label>

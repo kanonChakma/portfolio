@@ -27,12 +27,6 @@ const Header = ({navHeader}) => {
                 </li>
 
                 <li className='nav__item'>
-                    <Link activeClass={activeNave} className={activeNave === "#about"?'nav__link active-link':'nav__link'} to="about" spy={true} smooth={true} offset={-50} duration={500} onClick={()=>setActiveNave("#about")}>
-                       <i className='uil uil-user nav__icon'></i>About
-                    </Link>
-                </li>
-
-                <li className='nav__item'>
                     <Link activeClass={activeNave} className={activeNave === "#skills"?'nav__link active-link':'nav__link'} to="skills" spy={true} smooth={true} offset={-30} duration={500} onClick={()=>setActiveNave("#skills")}>
                         <i className='uil uil-file-alt nav__icon'></i>Skills
                     </Link>
