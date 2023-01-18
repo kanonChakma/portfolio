@@ -5,13 +5,11 @@
   padding-bottom: 3rem;
 }
 .contact {
-  height: 100vh;
 }
 .contact_inside {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 70vh;
   padding: 20px 0px;
 }
 .contact__info {

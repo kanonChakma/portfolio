@@ -4,13 +4,15 @@ const WorkItem = ({item}) => {
    <div className='work__card'>
      <img src={item.image} alt='' className='work__img'/>
      <h3 className='work__title'>{item.title}</h3>
-     <div className='tech__main'>
+    <div className='tech__head'>
+      <div className='tech__main'>
       {
         item.tech.map((t) => (
           <span className='tech__stack'>{t}</span>
         ))
       }
-     </div>
+    </div>
+    </div>
      <div className='tect__desc'>
         <p>{item.desc}</p>
      </div>

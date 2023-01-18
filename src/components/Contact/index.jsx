@@ -28,7 +28,7 @@ const Contact = () => {
             <span className='contact__card-data'>
               kanon121chakma@gmail.com
             </span>
-            <a href='https://mail.google.com' target='_blank' className='contact__button'> write me
+            <a href='https://mail.google.com' target='_blank' className='contact__button' rel="noreferrer"> write me
             <i className='bx bx-right-arrow-alt contact__button-icon '></i>
             </a>
           </div>
@@ -52,7 +52,7 @@ const Contact = () => {
            <input type="text" 
            name='name'
            className='contact__form-input'
-           placeholder='Insert Your Name'
+           placeholder='Your Name'
            />
          </div>
          
@@ -60,18 +60,18 @@ const Contact = () => {
             <label className='contact__form-tag'>Email</label>
             <input type="email" name='email'
             className='contact__form-input'
-            placeholder='Insert Your Email'
+            placeholder='Your Email'
             />
           </div>
 
           <div className='contact__form-div contact__form-area'>
-            <label className='contact__form-tag'>Name</label>
+            <label className='contact__form-tag'>Message</label>
             <textarea 
             name='project' 
             id=''
             cols='30' 
             rows='10'
-            placeholder='write your project'
+            placeholder='write your message'
             className='contact__form-input'
             >
             </textarea>

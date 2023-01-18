@@ -5,13 +5,13 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 50vh;
+  min-height: 75vh;
   padding-top: 15px;
 }
 .qualification__tabs {
   display: flex;
   justify-content: center;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 3rem;
 }
 
 .qualification__button {

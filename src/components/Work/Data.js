@@ -2,7 +2,6 @@ import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
 
   
   export const projectsData = [
@@ -20,7 +19,7 @@ import Work5 from "../../assets/work5.jpg";
       title: "Share Talk",
       category: "app",
       desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
-      tech : ["React", "Express", "MongoDB", "Socket.io"]
+      tech : ["React", "Express", "MongoDB", "Socket.io", "Mongoose"]
     },
     {
       id: 3,
@@ -28,7 +27,7 @@ import Work5 from "../../assets/work5.jpg";
       title: "Task Assign",
       category: "design",
       desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
-      tech : ["React", "Express", "MongoDB", "Socket.io"]
+      tech : ["React", "Express", "MongoDB", "Socket.io", "Mongoose"]
     },
     {
       id: 4,
@@ -36,7 +35,7 @@ import Work5 from "../../assets/work5.jpg";
       title: "Blog",
       category: "app",
       desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
-      tech : ["React", "Express", "MongoDB", "Socket.io"]
+      tech : ["React", "Express", "MongoDB", "Socket.io", "Mongoose"]
     },
   ];
   
