@@ -17,7 +17,7 @@ const Qualification = () => {
                 >
               <i className='uil uil-graduation-cap
               qualification__icon'></i>{" "}
-              Education
+               Experience
               </div>
               <div className={toggole?'qualification__button button--flex':
               "qualification__button qualification__active button--flex"}
@@ -25,7 +25,7 @@ const Qualification = () => {
               >
               <i className='uil uil-briefcase-alt
               qualification__icon'></i>{" "}
-              Experience
+                Education
               </div>
           </div>
 
@@ -34,13 +34,13 @@ const Qualification = () => {
               :'qualification__content'}>
                 <div className='qualification__data'>
                     <div>
-                        <h3 className='qualification__title'>Web design</h3>
+                        <h3 className='qualification__title'>Junior Full stack developer</h3>
                         <span className='qualification__subtitle'>
-                        Spain - Institute
+                           Sazep pty Ltd
                         </span>
                         <div className='qualification__calendar'>
-                        <i className='uil uil-calendar-alt'></i> 2021 - Present
-                        </div>
+                           <i className='uil uil-calendar-alt'></i> Sep 2021 - Aug 2022
+                         </div>
                     </div>
                     <div>
                       <span className='qualification__rounder'></span>
@@ -51,63 +51,25 @@ const Qualification = () => {
                   <div>
                   </div>
                   <div>
-                  <span className='qualification__rounder'></span>
-                  <span className='qualification__line'></span>
+                    <span className='qualification__rounder'></span>
+                    <span className='qualification__line'></span>
+                    <span className='qualification__line'></span>
+                    <span className='qualification__line'></span>
+                    <span className='qualification__line'></span>
+                    <span className='qualification__line'></span>
                   </div>   
-                  <div>
-                    <h3 className='qualification__title'>Art Director</h3>
-                    <span className='qualification__subtitle'>
-                        Spain - Institute
-                    </span>
-                    <div className='qualification__calendar'>
-                    <i className='uil uil-calendar-alt'></i> 2021 - Present
-                    </div>
-                    </div>
                 </div>
-                <div className='qualification__data'>
-                <div>
-                    <h3 className='qualification__title'>Web development</h3>
-                    <span className='qualification__subtitle'>
-                    Spain - Institute
-                    </span>
-                    <div className='qualification__calendar'>
-                    <i className='uil uil-calendar-alt'></i> 2021 - Present
-                    </div>
-                </div>
-                <div>
-                  <span className='qualification__rounder'></span>
-                  <span className='qualification__line'></span>
-                </div>
-              </div>
-              <div className='qualification__data'>
-              <div>
-              </div>
-              <div>
-              <span className='qualification__rounder'></span>
-              <span className='qualification__line'></span>
-              </div>   
-              <div>
-                <h3 className='qualification__title'>UX expart</h3>
-                <span className='qualification__subtitle'>
-                    Spain - Institute
-                </span>
-                <div className='qualification__calendar'>
-                <i className='uil uil-calendar-alt'></i> 2021 - Present
-                </div>
-                </div>
-              </div>
               </div>
               <div className={toggole?'qualification__content':'qualification__content qualification__content-active'}>
                 <div className='qualification__data'>
-                  <div>
-                      <h3 className='qualification__title'>Web design</h3>
-                      <span className='qualification__subtitle'>
-                      Spain - Institute
-                      </span>
-                      <div className='qualification__calendar'>
-                      <i className='uil uil-calendar-alt'></i> 2021 - Present
-                      </div>
-                  </div>
+                 <div>
+                <h3 className='qualification__title'>B.Sc. in Computer Science & Engineering</h3>
+                <span className='qualification__subtitle'>
+                  - Bangabandhu Sheikh Mujibur Rahman Science & Technology University
+                </span>
+                <div className='qualification__calendar'>
+                 </div>
+                 </div>
                   <div>
                     <span className='qualification__rounder'></span>
                     <span className='qualification__line'></span>
@@ -121,46 +83,13 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
                 </div>   
                 <div>
-                  <h3 className='qualification__title'>Art Director</h3>
+                  <h3 className='qualification__title'>Higher Secondary Certificate (HSC)</h3>
                   <span className='qualification__subtitle'>
-                      Spain - Institute
+                      - Banophool Adibashi Green Heart College
                   </span>
                   <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
                   </div>
                   </div>
-                </div>
-                <div className='qualification__data'>
-              <div>
-                  <h3 className='qualification__title'>Web development1</h3>
-                  <span className='qualification__subtitle'>
-                  Spain - Institute
-                  </span>
-                  <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
-                  </div>
-              </div>
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-                </div>
-                <div className='qualification__data'>
-            <div>
-            </div>
-            <div>
-            <span className='qualification__rounder'></span>
-            <span className='qualification__line'></span>
-            </div>   
-            <div>
-              <h3 className='qualification__title'>UX1 expart</h3>
-              <span className='qualification__subtitle'>
-                  Spain - Institute
-              </span>
-              <div className='qualification__calendar'>
-              <i className='uil uil-calendar-alt'></i> 2021 - Present
-              </div>
-              </div>
                 </div>
               </div>
           </div>
@@ -170,4 +99,9 @@ const Qualification = () => {
   )
 }
 
+
 export default Qualification
+
+
+// <i className='uil uil-calendar-alt'></i> 2017 - 2022
+// <i className='uil uil-calendar-alt'></i> 2013- 2015

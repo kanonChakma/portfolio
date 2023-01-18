@@ -1,16 +1,16 @@
 import React from 'react'
-import "./index.css"
-import html from "../../assets/html.png"
 import css from "../../assets/css.png"
+import git from "../../assets/git.png"
+import html from "../../assets/html.png"
 import js from "../../assets/js.png"
-import react from "../../assets/react.png"
-import node from "../../assets/nodejs.jpg"
 import mongo from "../../assets/mongo.jpg"
 import mui from "../../assets/mui.png"
-import git from "../../assets/git.png"
+import node from "../../assets/nodejs.jpg"
 import py from "../../assets/python.png"
-import ts from "../../assets/ts.png"
+import react from "../../assets/react.png"
 import sql from "../../assets/sql.png"
+import ts from "../../assets/ts.png"
+import "./index.css"
 
 
 
@@ -18,11 +18,11 @@ import sql from "../../assets/sql.png"
 const index = () => {
   return (
   <section className='section' id="skills">
-  <div className='skill_inside'>
+  <div className='tech__inside'>
    <h2 className='section__title'>Skills</h2>
     <span className='section__subtitle'>
     </span>
-    <div className='tect__container container grid'>
+    <div className='tech__container container grid'>
         <div className='tech__info'>
             <img className='tech-image' src={html} alt="tect-images"/>
             <span className='tech__title'> html</span>

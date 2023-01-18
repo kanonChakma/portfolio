@@ -33,19 +33,19 @@ const Header = ({navHeader}) => {
                 </li>
 
                 <li className='nav__item'>
-                   <Link activeClass={activeNave} className={activeNave === "#services"?'nav__link active-link':'nav__link'} to="services" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#services")}>
-                        <i className='uil uil-briefcase-alt nav__icon'></i>Services
+                   <Link activeClass={activeNave} className={activeNave === "#qualification"?'nav__link active-link':'nav__link'} to="services" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#services")}>
+                        <i className='uil uil-briefcase-alt nav__icon'></i>Qualification
                    </Link>
                 </li>
 
                 <li className='nav__item'>
-                   <Link activeClass={activeNave} className={activeNave === "#portfolio"?'nav__link active-link':'nav__link'} to="portfolio" spy={true} smooth={true} offset={-30} duration={500} onClick={()=>setActiveNave("#portfolio")}>
-                       <i className='uil uil-scenery nav__icon'></i>Porfolio
+                   <Link activeClass={activeNave} className={activeNave === "#portfolio"?'nav__link active-link':'nav__link'} to="portfolio" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#portfolio")}>
+                       <i className='uil uil-scenery nav__icon'></i>Projects
                    </Link>
                 </li>
 
                 <li className='nav__item'>
-                   <Link activeClass={activeNave} className={activeNave === "#contact"?'nav__link active-link':'nav__link'} to="contact" spy={true} smooth={true} offset={-50} duration={500} onClick={()=>setActiveNave("#contact")}>
+                   <Link activeClass={activeNave} className={activeNave === "#contact"?'nav__link active-link':'nav__link'} to="contact" spy={true} smooth={true} offset={-10} duration={500} onClick={()=>setActiveNave("#contact")}>
                        <i className='uil uil-message nav__icon'></i>Contact
                   </Link>
                </li>
