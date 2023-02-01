@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../../assets/John-Cv.pdf"
+import CV from "../../assets/resume.pdf"
 const Data = () => {
   return (
     <div className='home__data'> 
@@ -62,7 +62,7 @@ const Data = () => {
          Junior Full Stack Developer 🚀having an experience 
          of building Web applications in agile development methodologies with JavaScript / TypeScript / Reactjs / Nodejs  
          and some other cool libraries and frameworks.
-         Passoinate about explore new technologies, problem solving and music🎸 Lover.
+         Passoinate about explore new technologies and problem solving.
          </p>
         <div className='home__button'>
           <a href='#contact' className='button button--flex'>

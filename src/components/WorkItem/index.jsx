@@ -17,10 +17,10 @@ const WorkItem = ({item}) => {
         <p>{item.desc}</p>
      </div>
      <div className='work__link'>
-       <a href='/' className='work__button'>
+       <a href={item.demo_link} className='work__button' target='_blank'>
            Demo <i class="uil uil-external-link-alt"></i>
        </a>
-        <a href='/' className='work__button'>
+        <a href={item.git_link} className='work__button' target='_blank'>
             github <i class="uil uil-github"></i>
         </a>
      </div>
