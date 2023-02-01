@@ -1,3 +1,7 @@
+.section_work{
+  margin-top: 40px
+}
+
 .work__filters {
   display: flex;
   justify-content: center;
@@ -58,6 +62,7 @@
   height: 200px;
   object-fit: cover;
   margin-bottom: var(--mb-1);
+  border: 1px solid gray;
 }
 
 .work__title {
@@ -118,6 +123,9 @@
   }
   .section_work {
     padding: 25px 0px;
+  }
+  .section_work{
+    margin-top: 0px
   }
 }
 

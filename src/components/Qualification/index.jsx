@@ -3,11 +3,9 @@ import "./index.css"
 const Qualification = () => {
   const [toggole, setToggole] = useState(true)
   return (
-    <section className='section qualification'>
+    <section className='section qualification' id='education'>
       <div className='qualification_inside'>
-      <h2 className='section__title'>Qualification</h2>
-      <span className='section__subtitle'>
-      </span>
+      <h2 className='section__title'></h2>
         <div className='qualification__container container'>
           <div className='qualification__tabs'> 
               <div className={toggole?
@@ -36,10 +34,12 @@ const Qualification = () => {
                     <div>
                         <h3 className='qualification__title'>Junior Full stack developer</h3>
                         <span className='qualification__subtitle'>
-                           Sazep pty Ltd
+                           Sazep pty Ltd<br/>
+                           waterways vic 3195, Australia
                         </span>
+                    
                         <div className='qualification__calendar'>
-                           <i className='uil uil-calendar-alt'></i> Sep 2021 - Aug 2022
+                           <i className='uil uil-calendar-alt'></i> Nov 2021 - Aug 2022
                          </div>
                     </div>
                     <div>
@@ -68,6 +68,7 @@ const Qualification = () => {
                   - Bangabandhu Sheikh Mujibur Rahman Science & Technology University
                 </span>
                 <div className='qualification__calendar'>
+                  <i className='uil uil-calendar-alt'></i> 2017 - 2022
                  </div>
                  </div>
                   <div>

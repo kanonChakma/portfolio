@@ -25,7 +25,7 @@ const Header = ({navHeader}) => {
                      <i className='uil uil-estate nav__icon'></i>Home
                    </Link>
                 </li>
-
+               
                 <li className='nav__item'>
                     <Link activeClass={activeNave} className={activeNave === "#skills"?'nav__link active-link':'nav__link'} to="skills" spy={true} smooth={true} offset={-30} duration={500} onClick={()=>setActiveNave("#skills")}>
                         <i className='uil uil-file-alt nav__icon'></i>Skills
@@ -33,17 +33,23 @@ const Header = ({navHeader}) => {
                 </li>
 
                 <li className='nav__item'>
-                   <Link activeClass={activeNave} className={activeNave === "#qualification"?'nav__link active-link':'nav__link'} to="services" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#services")}>
-                        <i className='uil uil-briefcase-alt nav__icon'></i>Qualification
+                  <Link activeClass={activeNave} className={activeNave === "#portfolio"?'nav__link active-link':'nav__link'} to="portfolio" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#portfolio")}>
+                    <i className='uil uil-scenery nav__icon'></i>Projects
+                 </Link>
+                </li>
+
+                <li className='nav__item'>
+                   <Link activeClass={activeNave} className={activeNave === "#education"?'nav__link active-link':'nav__link'} to="education" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#services")}>
+                        <i className='uil uil-graduation-cap nav__icon'></i>Experience
                    </Link>
                 </li>
 
                 <li className='nav__item'>
-                   <Link activeClass={activeNave} className={activeNave === "#portfolio"?'nav__link active-link':'nav__link'} to="portfolio" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#portfolio")}>
-                       <i className='uil uil-scenery nav__icon'></i>Projects
+                   <Link activeClass={activeNave} className={activeNave === "#education"?'nav__link active-link':'nav__link'} to="education" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>setActiveNave("#services")}>
+                        <i className='uil uil-briefcase-alt nav__icon'></i>Education
                    </Link>
                 </li>
-
+                  
                 <li className='nav__item'>
                    <Link activeClass={activeNave} className={activeNave === "#contact"?'nav__link active-link':'nav__link'} to="contact" spy={true} smooth={true} offset={-10} duration={500} onClick={()=>setActiveNave("#contact")}>
                        <i className='uil uil-message nav__icon'></i>Contact
