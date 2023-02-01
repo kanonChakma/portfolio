@@ -31,7 +31,7 @@ import Work4 from "../../assets/portfolio.png";
       image: Work3,
       image_link:"https://user-images.githubusercontent.com/50201920/195927435-97ba9fff-306c-47ae-aaa2-7d50202c9e0e.png",
       title: "Task Assign",
-      git_link: "https://github.com/kanonChakma/Task-Assign-Frontend",
+      git_link: "https://github.com/kanonChakma/Task-Assign",
       demo_link: "",
       category: "design",
       desc: "User able to add their daily task.Task able to draggable in different section, task able to update and delete.",
