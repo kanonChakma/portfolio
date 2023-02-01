@@ -41,7 +41,7 @@ import Work4 from "../../assets/portfolio.png";
       id: 4,
       image_link:"https://user-images.githubusercontent.com/50201920/195927435-97ba9fff-306c-47ae-aaa2-7d50202c9e0e.png",
       image: Work4,
-      git_link: "https://github.com/kanonChakma/Personal-Portfolio",
+      git_link: "https://github.com/kanonChakma/portfolio",
       demo_link: "",
       title: "My Portfolio",
       category: "app",
