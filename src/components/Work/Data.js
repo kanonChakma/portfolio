@@ -38,7 +38,7 @@ import task from "../../assets/task.png";
       title: "Learning-Curve",
       category: "web",
       desc: "Educational group discussion platform that users can add those group and discuss with other user",
-      tech: ["HTML","", "CSS", "SQLite3", "React.js"],
+      tech: ["HTML","CSS", "Reactjs","Django", "SQLite3"],
       has_link: false,
     },
     {
@@ -50,7 +50,7 @@ import task from "../../assets/task.png";
       demo_link: "https://sharetalk.netlify.app/",
       category: "app",
       desc: "Chat application that user able ot communicate in real time.Implemented share image, emoji, show typing functionality.",
-      tech : ["React", "Express", "MongoDB", "Socket.io", "Mongoose"],
+      tech : ["Reactjs", "Express", "MongoDB", "Socket.io", "Mongoose"],
       has_link: true,
     },
     {
@@ -62,7 +62,7 @@ import task from "../../assets/task.png";
       demo_link: "",
       category: "design",
       desc: "User able to add their daily task.Task able to draggable in different section, task able to update and delete.",
-      tech : ["TypeScript","React","redux", "Express", "MongoDB", "Mongoose",],
+      tech : ["TypeScript","Reactjs","redux", "Express", "MongoDB", "Mongoose",],
       has_link: false,
     },
     {
@@ -74,7 +74,7 @@ import task from "../../assets/task.png";
       title: "My Portfolio",
       category: "app",
       desc: "This is my  personal portfolio.Provide information about me, experince, skills, education and contact info.",
-      tech : ["HTML","CSS", "React.js", "Email.js","",],
+      tech : ["HTML","CSS", "Reactjs", "Email.js","",],
       has_link: true,
     },
   ];
