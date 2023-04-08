@@ -39,7 +39,7 @@ const Qualification = () => {
                         </span>
                     
                         <div className='qualification__calendar'>
-                           <i className='uil uil-calendar-alt'></i> Nov 2021 - Aug 2022
+                           <i className='uil uil-calendar-alt'></i> Feb 2022 - Sep 2022
                          </div>
                     </div>
                     <div>

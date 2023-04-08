@@ -60,7 +60,7 @@ const Data = () => {
        </h3>
        <p className='home__description'>
          Junior Full Stack Developer 🚀having an experience 
-         of building Web applications in agile development methodologies with JavaScript / TypeScript / Reactjs / Nodejs  
+         of building Web applications in agile development methodologies with JavaScript/ Python/ Reactjs / Django/ Nodejs  
          and some other cool libraries and frameworks.
          Passoinate about explore new technologies and problem solving.
          </p>
