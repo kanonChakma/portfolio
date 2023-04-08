@@ -17,7 +17,7 @@ const WorkItem = ({item}) => {
         <p>{item.desc}</p>
      </div>
      <div className='work__link'>
-       <a href={item.demo_link} className='work__button' target='_blank'>
+       <a href={item.demo_link} className={ item.has_link?'work__button':'work__button disabled'} target='_blank'>
            Demo <i class="uil uil-external-link-alt"></i>
        </a>
         <a href={item.git_link} className='work__button' target='_blank'>

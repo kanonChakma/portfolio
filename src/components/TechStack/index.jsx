@@ -10,6 +10,7 @@ import py from "../../assets/python.png"
 import react from "../../assets/react.png"
 import sql from "../../assets/sql.png"
 import ts from "../../assets/ts.png"
+import django from "../../assets/django.jpg"
 import "./index.css"
 
 
@@ -36,36 +37,41 @@ const index = () => {
         <span className='tech__title'> JavaScript</span>
         </div>
         <div  className='tech__info'>
+        <img className='tech-image' src={py} alt="tect-images"/>
+        <span className='tech__title'> Python</span>
+        </div>
+        <div  className='tech__info'>
         <img className='tech-image' src={react} alt="tect-images"/>
         <span className='tech__title'> React.js </span>
-        </div>
-        <div  className='tech__info'>
-        <img className='tech-image' src={node} alt="tect-images"/>
-        <span className='tech__title'> Node.js</span>
-        </div>
-        <div  className='tech__info'>
-        <img className='tech-image' src={mongo} alt="tect-images"/>
-        <span className='tech__title'> MongoDB</span>
         </div>
         <div className='tech__info'>
         <img className='tech-image' src={mui} alt="tect-images"/>
         <span className='tech__title'> Material-UI</span>
         </div>
         <div  className='tech__info'>
-        <img className='tech-image' src={git} alt="tect-images"/>
-        <span className='tech__title'> Git</span>
+        <img className='tech-image' src={django} alt="tect-images"/>
+        <span className='tech__title'> Django</span>
         </div>
         <div  className='tech__info'>
-        <img className='tech-image' src={py} alt="tect-images"/>
-        <span className='tech__title'> Python</span>
+        <img className='tech-image' src={node} alt="tect-images"/>
+        <span className='tech__title'> Node.js</span>
+        </div>
+        <div  className='tech__info'>
+        <img className='tech-image' src={sql} alt="tect-images"/>
+        <span className='tech__title'> SQL</span>
+        </div>
+        <div  className='tech__info'>
+        <img className='tech-image' src={git} alt="tect-images"/>
+        <span className='tech__title'> Git</span>
         </div>
         <div  className='tech__info'>
         <img className='tech-image' src={ts} alt="tect-images"/>
         <span className='tech__title'> TypeScript</span>
         </div>
+             
         <div  className='tech__info'>
-        <img className='tech-image' src={sql} alt="tect-images"/>
-        <span className='tech__title'> SQL</span>
+        <img className='tech-image' src={mongo} alt="tect-images"/>
+        <span className='tech__title'> MongoDB</span>
         </div>
         </div>
     </div>

@@ -1,7 +1,10 @@
 import Work1 from "../../assets/top-choice.png";
 import Work2 from "../../assets/share-talk.png";
 import Work3 from "../../assets/work3.jpg";
+import Work11 from "../../assets/work1.jpg";
 import Work4 from "../../assets/portfolio.png";
+import logbook from "../../assets/log-book.png";
+import task from "../../assets/task.png";
 
   
   export const projectsData = [
@@ -13,10 +16,33 @@ import Work4 from "../../assets/portfolio.png";
       title: "Top Choice",
       category: "web",
       desc: "Full-stack (e-commerce based) web app with advance searching feature Developed reusable component with Responsive UI.",
-      tech: ["React", "Redux", "Firebase", "Express", "Mongoose", "MongoDB", "Stripe"]
+      tech: ["Reactjs", "Redux", "Firebase", "Express", "Mongoose", "MongoDB", "Stripe"],
+      has_link: true,
     },
     {
       id: 2,
+      git_link: "https://github.com/kanonChakma/LogBook",
+      demo_link: "",
+      image: logbook,
+      title: "Log Book",
+      category: "web",
+      desc: "It is a Full-stack blog web application built with React and Django(Django REST Framework)",
+      tech: ["TypeScript","Reactjs", "Redux", "JWT", "Django(DRF)", "SQLite3"],
+      has_link: false,
+    },
+    {
+      id: 3,
+      git_link: "https://github.com/kanonChakma/Learning-Curve",
+      demo_link: "",
+      image: Work11,
+      title: "Learning-Curve",
+      category: "web",
+      desc: "Educational group discussion platform that users can add those group and discuss with other user",
+      tech: ["HTML","", "CSS", "SQLite3", "React.js"],
+      has_link: false,
+    },
+    {
+      id: 4,
       image_link:"https://user-images.githubusercontent.com/50201920/195927435-97ba9fff-306c-47ae-aaa2-7d50202c9e0e.png",
       image: Work2,
       title: "Share Talk",
@@ -24,21 +50,23 @@ import Work4 from "../../assets/portfolio.png";
       demo_link: "https://sharetalk.netlify.app/",
       category: "app",
       desc: "Chat application that user able ot communicate in real time.Implemented share image, emoji, show typing functionality.",
-      tech : ["React", "Express", "MongoDB", "Socket.io", "Mongoose"]
+      tech : ["React", "Express", "MongoDB", "Socket.io", "Mongoose"],
+      has_link: true,
     },
     {
-      id: 3,
-      image: Work3,
+      id:5,
+      image: task,
       image_link:"https://user-images.githubusercontent.com/50201920/195927435-97ba9fff-306c-47ae-aaa2-7d50202c9e0e.png",
       title: "Task Assign",
       git_link: "https://github.com/kanonChakma/Task-Assign",
       demo_link: "",
       category: "design",
       desc: "User able to add their daily task.Task able to draggable in different section, task able to update and delete.",
-      tech : ["TypeScript","React","redux", "Express", "MongoDB", "Mongoose",]
+      tech : ["TypeScript","React","redux", "Express", "MongoDB", "Mongoose",],
+      has_link: false,
     },
     {
-      id: 4,
+      id: 6,
       image_link:"https://user-images.githubusercontent.com/50201920/195927435-97ba9fff-306c-47ae-aaa2-7d50202c9e0e.png",
       image: Work4,
       git_link: "https://github.com/kanonChakma/portfolio",
@@ -46,7 +74,8 @@ import Work4 from "../../assets/portfolio.png";
       title: "My Portfolio",
       category: "app",
       desc: "This is my  personal portfolio.Provide information about me, experince, skills, education and contact info.",
-      tech : ["React","","Email.js","","CSS"]
+      tech : ["HTML","CSS", "React.js", "Email.js","",],
+      has_link: true,
     },
   ];
   
