@@ -1,6 +1,6 @@
 import Work1 from "../../assets/top-choice.png";
 import Work2 from "../../assets/share-talk.png";
-import Work3 from "../../assets/work3.jpg";
+import Learning from "../../assets/learning.png";
 import Work11 from "../../assets/work1.jpg";
 import Work4 from "../../assets/portfolio.png";
 import logbook from "../../assets/log-book.png";
@@ -33,13 +33,13 @@ import task from "../../assets/task.png";
     {
       id: 3,
       git_link: "https://github.com/kanonChakma/Learning-Curve",
-      demo_link: "",
-      image: Work11,
+      demo_link: "https://learningcurve.up.railway.app/",
+      image: Learning,
       title: "Learning-Curve",
       category: "web",
       desc: "Educational group discussion platform that users can add those group and discuss with other user",
       tech: ["HTML","CSS", "Reactjs","Django", "SQLite3"],
-      has_link: false,
+      has_link: true,
     },
     {
       id: 4,
